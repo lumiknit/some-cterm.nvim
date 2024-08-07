@@ -144,12 +144,12 @@ local function apply_theme()
     "TSNumber", "TSFloat",
     "@number", "@boolean", "@float", "@int", "@char",
   }, {
-    fg = "brightyellow",
+    fg = "brightmagenta",
   })
   ss({
     "Constant", "Special", "TSConstant", "@constant",
   }, {
-    fg = "brightyellow",
+    fg = "brightmagenta",
   })
   ss({
     "String", "StringDelimiter",
@@ -179,7 +179,7 @@ local function apply_theme()
     "@identifier", "@variable",
     "@function.call", "@method.call",
   }, {
-    fg = "brightmagenta",
+    fg = "brightyellow",
   })
   ss({
     "TSVariableBuiltin",
@@ -192,7 +192,7 @@ local function apply_theme()
     "TSProperty", "TSSymbol",
     "@property", "@symbol",
   }, {
-    fg = "brightmagenta",
+    fg = "brightblue",
   })
   ss({
     "TSTagCustom", "TSTagAttribute",
@@ -209,7 +209,7 @@ local function apply_theme()
     "@label", "@preproc", "@exception",
     "@statement", 
   }, {
-    fg = "brightblue",
+    fg = "brightred",
     bold = true,
   })
   ss({
@@ -232,6 +232,7 @@ local function apply_theme()
     "Namespace", "TSNamespace", "@namespace",
   }, {
     fg = "brightred",
+    bold = true,
   })
   ss({
     "TSError",
@@ -239,6 +240,7 @@ local function apply_theme()
   }, {
     fg = "red",
     bold = true,
+    underline = true,
   })
   for _, style in pairs(styles) do
     local opts = {}
