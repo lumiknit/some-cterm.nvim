@@ -213,7 +213,7 @@ local function apply_theme()
     "@label", "@preproc", "@exception",
     "@statement", "@tag",
   }, {
-    fg = "red",
+    fg = "brightblue",
     bold = true,
   })
   ss({
