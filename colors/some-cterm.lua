@@ -168,7 +168,7 @@ local function apply_theme()
     "TSFunction", "TSMethod",
     "@function", "@method", "@attribute"
   }, {
-    fg = "brightcyan",
+    fg = "brightyellow",
   })
   ss({ "Comment", "TSComment", "@comment" }, {
     fg = "blue",
@@ -220,7 +220,7 @@ local function apply_theme()
     "@type.qualifier", "@type.builtin",
     "@type.dart"
   }, {
-    fg = "brightyellow",
+    fg = "brightred",
     bold = true,
   })
   ss({
@@ -229,6 +229,7 @@ local function apply_theme()
     "@type", "@tag",
   }, {
     fg = "brightyellow",
+    bold = true,
   })
   ss({
     "Namespace", "TSNamespace", "@namespace",
