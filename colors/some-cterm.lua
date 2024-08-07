@@ -195,7 +195,8 @@ local function apply_theme()
     "TSProperty", "TSSymbol",
     "@property", "@symbol",
   }, {
-    fg = "brightyellow",
+    fg = "brightblue",
+    bold = true,
   })
   ss({
     "TSTagCustom", "TSTagAttribute",
@@ -205,12 +206,12 @@ local function apply_theme()
   })
   ss({
     "Conditional", "Define", "Include", "Keyword",
-    "Label", "PreProc", "Repeat", "Statement", "Macro",
+    "Label", "PreProc", "Repeat", "Statement", "Macro", "Tag",
     "TSConditional", "TSRepeat", "TSKeyword", "TSKeywordFunction",
-    "TSKeywordReturn", "TSInclude", "TSStatement", "TSException",
+    "TSKeywordReturn", "TSInclude", "TSStatement", "TSException", "TSTag",
     "@conditional", "@repeat", "@keyword", "@keyword.function", "@keyword.return",
     "@label", "@preproc", "@exception",
-    "@statement", 
+    "@statement", "@tag",
   }, {
     fg = "brightred",
     bold = true,
@@ -224,9 +225,9 @@ local function apply_theme()
     bold = true,
   })
   ss({
-    "StorageClass", "Structure", "Tag", "Type",
-    "TSType", "TSTag",
-    "@type", "@tag",
+    "StorageClass", "Structure", "Type",
+    "TSType",
+    "@type",
   }, {
     fg = "brightyellow",
     bold = true,
