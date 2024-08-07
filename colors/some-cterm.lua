@@ -188,7 +188,7 @@ local function apply_theme()
     "TSVariableBuiltin",
     "@variable.builtin",
   }, {
-    fg = "brightgreen",
+    fg = "green",
   })
   ss({
     "Property", "Symbol",
@@ -213,7 +213,7 @@ local function apply_theme()
     "@label", "@preproc", "@exception",
     "@statement", "@tag",
   }, {
-    fg = "brightred",
+    fg = "red",
     bold = true,
   })
   ss({
@@ -229,8 +229,7 @@ local function apply_theme()
     "TSType",
     "@type",
   }, {
-    fg = "brightyellow",
-    bold = true,
+    fg = "brightred",
   })
   ss({
     "Namespace", "TSNamespace", "@namespace",
