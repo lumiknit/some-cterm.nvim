@@ -150,6 +150,7 @@ local function apply_theme()
     "Constant", "Special", "TSConstant", "@constant",
   }, {
     fg = "brightmagenta",
+    bold = true,
   })
   ss({
     "String", "StringDelimiter",
@@ -179,7 +180,7 @@ local function apply_theme()
     "@identifier", "@variable",
     "@function.call", "@method.call",
   }, {
-    fg = "brightyellow",
+    fg = "none",
   })
   ss({
     "TSVariableBuiltin",
@@ -225,8 +226,7 @@ local function apply_theme()
     "TSType", "TSTag",
     "@type", "@tag",
   }, {
-    fg = "brightyellow",
-    bold = true,
+    fg = "brightblue",
   })
   ss({
     "Namespace", "TSNamespace", "@namespace",
