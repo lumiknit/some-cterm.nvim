@@ -168,7 +168,7 @@ local function apply_theme()
     "TSFunction", "TSMethod",
     "@function", "@method", "@attribute"
   }, {
-    fg = "brightyellow",
+    fg = "brightcyan",
   })
   ss({ "Comment", "TSComment", "@comment" }, {
     fg = "blue",
@@ -195,13 +195,13 @@ local function apply_theme()
     "TSProperty", "TSSymbol",
     "@property", "@symbol",
   }, {
-    fg = "brightcyan",
+    fg = "brightyellow",
   })
   ss({
     "TSTagCustom", "TSTagAttribute",
     "@tag.custom", "@tag.attribute"
   }, {
-    fg = "brightcyan",
+    fg = "brightyellow",
   })
   ss({
     "Conditional", "Define", "Include", "Keyword",
@@ -220,7 +220,7 @@ local function apply_theme()
     "@type.qualifier", "@type.builtin",
     "@type.dart"
   }, {
-    fg = "brightcyan",
+    fg = "brightyellow",
     bold = true,
   })
   ss({
@@ -228,7 +228,7 @@ local function apply_theme()
     "TSType", "TSTag",
     "@type", "@tag",
   }, {
-    fg = "brightcyan",
+    fg = "brightyellow",
   })
   ss({
     "Namespace", "TSNamespace", "@namespace",
