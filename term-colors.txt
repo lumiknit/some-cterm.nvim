@@ -1,0 +1,21 @@
+foreground #e8e8e8
+background #000000
+selection_foreground #ffffff
+selection_background #5492af
+color0 #191919
+color1 #ec4129
+color2 #aae046
+color3 #f6c642
+color4 #439ff2
+color5 #7b5caf
+color6 #5edaec
+color7 #999999
+color8 #4c4c4c
+color9 #ed5356
+color10 #c0e27c
+color11 #f9d96a
+color12 #45a3f8
+color13 #a47ce8
+color14 #98f9f2
+color15 #ffffff
+
