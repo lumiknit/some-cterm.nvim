@@ -19,7 +19,7 @@ local function apply_theme()
     })
   end
   ss({ "Normal", "LineNr", "VertSplit", "WinSeparator", "SignColumn" }, {})
-  ss({ "Bold", "SpecialKey" }, {
+  ss({ "Bold" }, {
     bold = true,
   })
   ss({ "Italic" }, {
@@ -62,6 +62,9 @@ local function apply_theme()
   })
   ss({ "Cyan", "Directory" }, {
     fg = "cyan",
+  })
+  ss({ "SpecialKey" }, {
+    fg = "brightblack",
   })
   ss({ "Folded", "FoldColumn" }, {
     fg = "black",
