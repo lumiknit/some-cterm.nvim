@@ -36,8 +36,11 @@ local function apply_theme()
     bold = true,
     underline = true,
   })
-  ss({ "Black", "NonText" }, {
+  ss({ "Black" }, {
     fg = "black",
+  })
+  ss({ "SpecialKey", "NonText", "Whitespace" }, {
+    fg = "white",
   })
   ss({ "BrightWhiteBold", "MoreMsg", "ModeMsg", "TooLong" }, {
     fg = "brightwhite",
@@ -62,9 +65,6 @@ local function apply_theme()
   })
   ss({ "Cyan", "Directory" }, {
     fg = "cyan",
-  })
-  ss({ "SpecialKey" }, {
-    fg = "brightblack",
   })
   ss({ "Folded", "FoldColumn" }, {
     fg = "black",
